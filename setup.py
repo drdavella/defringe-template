@@ -31,7 +31,8 @@ setup(name=PACKAGE_NAME,
       description=DESCRIPTION,
       python_requires='>=3.3',
       install_requires=[
-          'numpy'
+          'numpy',
+          'astropy>=3.0'
       ],
       tests_require=['pytest'],
       author=AUTHOR,
